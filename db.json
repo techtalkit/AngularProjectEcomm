@@ -1,0 +1,160 @@
+{
+  "seller": [
+    {
+      "name": "Shafaat",
+      "password": "faizi",
+      "email": "ershafaat@gmail.com",
+      "id": 1
+    },
+    {
+      "name": "shafaat",
+      "password": "faizi_FORu65",
+      "email": "ershafaat@gmail.com",
+      "id": 2
+    },
+    {
+      "name": "anil",
+      "password": "anil123",
+      "email": "admin@gmail.com",
+      "id": 3
+    }
+  ],
+  "products": [
+    {
+      "name": "and123",
+      "price": "60000",
+      "color": "yellow",
+      "category": "mobile",
+      "description": "a mobile",
+      "image": "https://www.91-img.com/gallery_images_uploads/3/d/3df5ca6a9b470f715b085991144a5b76e70da975.JPG?tr=h-550,w-0,c-at_max",
+      "id": 2
+    },
+    {
+      "name": "Android",
+      "price": "40000",
+      "color": "blue",
+      "category": "Mobile",
+      "description": "Best Mobile",
+      "image": "https://cdn1.smartprix.com/rx-iAf9Lqlrt-w1200-h1200/oneplus-nord-ce-3-li.webp",
+      "id": 3
+    },
+    {
+      "name": "One Plus",
+      "price": "50000",
+      "color": "Greenish Blue",
+      "category": "Mobile",
+      "description": "Good Mobile",
+      "image": "https://www.zdnet.com/a/img/resize/02882244234909a297edb45438c4b3e6a47db563/2022/10/17/52969766-2b2e-4874-a447-81930abf01dd/google-pixel-7pro-hazel2.jpg?auto=webp&fit=crop&height=900&width=1200",
+      "id": 4
+    },
+    {
+      "name": "Lenovo Laptop",
+      "price": "100000",
+      "color": "Gray",
+      "category": "Laptop",
+      "description": "Very good Laptop",
+      "image": "https://m.media-amazon.com/images/I/81adZ1x16NS._AC_SL1500_.jpg",
+      "id": 5
+    }
+  ],
+  "users": [
+    {
+      "name": "shafaat",
+      "email": "ershafaat@gmail.com",
+      "password": "sfsfdss",
+      "id": 1
+    },
+    {
+      "name": "aniket",
+      "email": "aniket@gmail.com",
+      "password": "ani1234",
+      "id": 2
+    },
+    {
+      "name": "Vishnu",
+      "email": "vish34@gmail.com",
+      "password": "123abc",
+      "id": 3
+    },
+    {
+      "name": "Anuj",
+      "email": "anuj@gmail.com",
+      "password": "faizi_FORu65",
+      "id": 4
+    },
+    {
+      "name": "Aniket",
+      "email": "anik@gmail.com",
+      "password": "anik",
+      "id": 5
+    },
+    {
+      "name": "ashish",
+      "email": "ashish@yahoo.com",
+      "password": "ashi123",
+      "id": 6
+    },
+    {
+      "name": "akshay",
+      "email": "akki@gmail.com",
+      "password": "akki1234",
+      "id": 7
+    },
+    {
+      "name": "Ankush",
+      "email": "ankush@gmail.com",
+      "password": "ankush123",
+      "id": 8
+    },
+    {
+      "name": "ajay",
+      "email": "aj@gmail.com",
+      "password": "aj123",
+      "id": 9
+    },
+    {
+      "name": "Ratra",
+      "email": "rat@gmail.com",
+      "password": "rat123",
+      "id": 10
+    },
+    {
+      "name": "Zooby",
+      "email": "zoob@gmail.com",
+      "password": "zoob123",
+      "id": 11
+    },
+    {
+      "name": "yasmin",
+      "email": "yas@gmail.com",
+      "password": "yas123",
+      "id": 12
+    }
+  ],
+  "cart": [
+    {
+      "name": "Lenovo Laptop",
+      "price": "100000",
+      "color": "Gray",
+      "category": "Laptop",
+      "description": "Very good Laptop",
+      "image": "https://m.media-amazon.com/images/I/81adZ1x16NS._AC_SL1500_.jpg",
+      "quantity": 1,
+      "userId": 2,
+      "productId": 5,
+      "id": 1
+    },
+    {
+      "name": "Android",
+      "price": "40000",
+      "color": "blue",
+      "category": "Mobile",
+      "description": "Best Mobile",
+      "image": "https://cdn1.smartprix.com/rx-iAf9Lqlrt-w1200-h1200/oneplus-nord-ce-3-li.webp",
+      "quantity": 1,
+      "userId": 2,
+      "productId": 3,
+      "id": 2
+    }
+  ]
+}
