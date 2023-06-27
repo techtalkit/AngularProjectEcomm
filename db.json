@@ -156,5 +156,15 @@
       "productId": 3,
       "id": 2
     }
+  ],
+  "orders": [
+    {
+      "email": "ershafaat@gmail.com",
+      "address": "C-69, Third floor thokar no.8, Shahin Bagh, New Delhi",
+      "contact": "09811597165",
+      "totalPrice": 140100,
+      "userId": 2,
+      "id": 1
+    }
   ]
 }
