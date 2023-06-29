@@ -17,83 +17,15 @@
             <span>Action</span>
         </div>
     </div>
-    <div class="row order-data">
+    <div class="row order-data" *ngFor="let order of orderData">
         <div class="col-sm-2">
             <img class="order-img" src="https://cdn.pixabay.com/photo/2014/04/02/10/53/shopping-cart-304843_640.png" alt="">
         </div>
         <div class="col-sm-2">
-            <span>8100</span>
+            <span>#{{order.id}}</span>
         </div>
         <div class="col-sm-2">
-            <span>1200</span>
-        </div>
-        <div class="col-sm-2">
-            <span>In Process</span>
-        </div>
-        <div class="col-sm-2">
-            <span><button class="form-button">Cancel Order</button></span>
-        </div>
-    </div>
-    <div class="row order-data">
-        <div class="col-sm-2">
-            <img class="order-img" src="https://cdn.pixabay.com/photo/2014/04/02/10/53/shopping-cart-304843_640.png" alt="">
-        </div>
-        <div class="col-sm-2">
-            <span>8100</span>
-        </div>
-        <div class="col-sm-2">
-            <span>1200</span>
-        </div>
-        <div class="col-sm-2">
-            <span>In Process</span>
-        </div>
-        <div class="col-sm-2">
-            <span><button class="form-button">Cancel Order</button></span>
-        </div>
-    </div>
-    <div class="row order-data">
-        <div class="col-sm-2">
-            <img class="order-img" src="https://cdn.pixabay.com/photo/2014/04/02/10/53/shopping-cart-304843_640.png" alt="">
-        </div>
-        <div class="col-sm-2">
-            <span>8100</span>
-        </div>
-        <div class="col-sm-2">
-            <span>1200</span>
-        </div>
-        <div class="col-sm-2">
-            <span>In Process</span>
-        </div>
-        <div class="col-sm-2">
-            <span><button class="form-button">Cancel Order</button></span>
-        </div>
-    </div>
-    <div class="row order-data">
-        <div class="col-sm-2">
-            <img class="order-img" src="https://cdn.pixabay.com/photo/2014/04/02/10/53/shopping-cart-304843_640.png" alt="">
-        </div>
-        <div class="col-sm-2">
-            <span>8100</span>
-        </div>
-        <div class="col-sm-2">
-            <span>1200</span>
-        </div>
-        <div class="col-sm-2">
-            <span>In Process</span>
-        </div>
-        <div class="col-sm-2">
-            <span><button class="form-button">Cancel Order</button></span>
-        </div>
-    </div>
-    <div class="row order-data">
-        <div class="col-sm-2">
-            <img class="order-img" src="https://cdn.pixabay.com/photo/2014/04/02/10/53/shopping-cart-304843_640.png" alt="">
-        </div>
-        <div class="col-sm-2">
-            <span>8100</span>
-        </div>
-        <div class="col-sm-2">
-            <span>1200</span>
+            <span>{{order.totalPrice}}</span>
         </div>
         <div class="col-sm-2">
             <span>In Process</span>
