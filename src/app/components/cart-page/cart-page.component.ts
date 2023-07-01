@@ -20,6 +20,9 @@ export class CartPageComponent implements OnInit {
   constructor(private product: ProductService,private route:Router) { }
 
   ngOnInit(): void {
+    this.loadDetails();
+  }
+  loadDetails(){
     this.product.currentCart().subscribe((result) => {
       // console.log(result);
       this.cartData = result;
@@ -34,11 +37,21 @@ export class CartPageComponent implements OnInit {
       this.priceSummary.tax=price/10;
       this.priceSummary.delivery=100;
       this.priceSummary.total=price-(price/10)+(price/10)+100;
-      console.log(this.priceSummary);
+      if(!this.cartData.length){
+        this.route.navigate(['/'])
+      }
     })
   }
   checkout(){
     this.route.navigate(['/checkout']);
   }
+  removeToCart(cartId:number|undefined){
+    cartId &&this.cartData && this.product.removeToCart(cartId).
+      subscribe((result)=>{
+          this.loadDetails();
+      })
+    }
 
-}
+  }
+
+

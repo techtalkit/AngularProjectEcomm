@@ -83,4 +83,14 @@ export class ProductService {
     let userData = userStore && JSON.parse(userStore);
     return this.http.get<order[]>("http://localhost:3000/orders?orderId="+userData.id)
   }
+  deleteCartItems(cartId:number){
+    return this.http.delete("http://localhost:3000/cart/"+cartId,{observe:'response'}).subscribe((result)=>{
+      if(result){
+        this.cartData.emit([])
+      }
+    })
+  }
+  cancelOrder(orderId:number){
+    return this.http.delete(`http://localhost:3000/orders/`+orderId);
+  }
 }

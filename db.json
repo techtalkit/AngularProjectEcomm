@@ -155,30 +155,6 @@
       "userId": 2,
       "productId": 3,
       "id": 2
-    },
-    {
-      "name": "Android",
-      "price": "40000",
-      "color": "blue",
-      "category": "Mobile",
-      "description": "Best Mobile",
-      "image": "https://cdn1.smartprix.com/rx-iAf9Lqlrt-w1200-h1200/oneplus-nord-ce-3-li.webp",
-      "quantity": 1,
-      "userId": 1,
-      "productId": 3,
-      "id": 3
-    },
-    {
-      "name": "and123",
-      "price": "60000",
-      "color": "yellow",
-      "category": "mobile",
-      "description": "a mobile",
-      "image": "https://www.91-img.com/gallery_images_uploads/3/d/3df5ca6a9b470f715b085991144a5b76e70da975.JPG?tr=h-550,w-0,c-at_max",
-      "quantity": 1,
-      "userId": 1,
-      "productId": 2,
-      "id": 4
     }
   ],
   "orders": [
@@ -189,14 +165,6 @@
       "totalPrice": 140100,
       "userId": 2,
       "id": 1
-    },
-    {
-      "email": "shafaat888@gmail.com",
-      "address": "B-1/28, New Defence Colony near dmsrde",
-      "contact": "8853790881",
-      "totalPrice": 140100,
-      "userId": 2,
-      "id": 2
     },
     {
       "email": "shafaat888@gmail.com",
@@ -218,7 +186,7 @@
       "email": "ershafaat@gmail.com",
       "address": "C-69, Third floor thokar no.8, Shahin Bagh, New Delhi",
       "contact": "09811597165",
-      "totalPrice": 100100,
+      "totalPrice": 50100,
       "userId": 1,
       "id": 5
     }

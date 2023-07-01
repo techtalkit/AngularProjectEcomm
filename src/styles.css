@@ -26,6 +26,7 @@ body{
 }
 .p_message{
     color: green;
+    text-align: center;
 }
 .add-product{
     text-align: center;

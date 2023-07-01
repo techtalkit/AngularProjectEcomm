@@ -9,12 +9,20 @@ import { ProductService } from 'src/app/services/product.service';
 })
 export class MyOrdersComponent implements OnInit {
 
-  orderData: order[]|undefined;
+  orderData: order[] | undefined;
   constructor(private product: ProductService) { }
 
   ngOnInit(): void {
-    this.product.orderList().subscribe((result)=>{
-         this.orderData=result
+    this.getOrderList();
+  }
+  cancelOrder(orderId: number | undefined) {
+    orderId && this.product.cancelOrder(orderId).subscribe(() => {
+      this.getOrderList();
+    })
+  }
+  getOrderList() {
+    this.product.orderList().subscribe((result) => {
+      this.orderData = result
     })
   }
 
